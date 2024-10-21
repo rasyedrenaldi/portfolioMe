@@ -15,10 +15,10 @@ header {
 }
 
 .header__profile {
-  /* width: 16rem; */
-  height: 22rem;
+  width: 13rem;
+  height: 20rem;
   display: flex;
-  border-radius: 10rem 10rem;
+  border-radius: 9rem 9rem 5rem 5rem;
   overflow: hidden;
   margin-bottom: 1.5rem;
 }
