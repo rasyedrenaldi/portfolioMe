@@ -1,6 +1,6 @@
 .card {
   background: var(--color-white);
-  padding: 1.5rem;
+  padding: 1rem;
   border: 2px solid transparent;
   border-radius: var(--border-radius-1);
   transition: var(--transition);
@@ -8,8 +8,8 @@
 
 .card:hover {
   background: transparent;
-  border-color: var(--color-white);
-  transform: translateY(-0.5);
+  border-color: var(--color-primary);
+  transform: translateY(-0.3rem);
 }
 
 .card.light {
