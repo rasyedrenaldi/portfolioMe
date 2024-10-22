@@ -34,3 +34,15 @@
     gap: 1.5rem;
   }
 }
+
+/* MEDIA QUERIES (phones) */
+@media screen and (max-width: 600px) {
+  .services__container {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+
+  .card.service {
+    gap: 1.2rem;
+  }
+}
