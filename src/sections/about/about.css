@@ -1,7 +1,7 @@
 .about__container {
   display: grid;
   grid-template-columns: 38% 53%;
-  gap: 12%;
+  gap: 18%;
 }
 
 .about__left {
@@ -62,7 +62,7 @@
 }
 
 /* MEDIA QUERIES (tablets) */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1206px) {
   .about__left {
     display: none;
   }
