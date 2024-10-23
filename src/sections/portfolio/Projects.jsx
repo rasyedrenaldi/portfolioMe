@@ -1,10 +1,10 @@
 import Project from './Project';
 
-const Projects = (projects) => {
+const Projects = ({ projects }) => {
   return (
     <div className="portfolio__projects">
       {projects.map(project => (
-        <Project></Project>
+        <Project />
       ))}
     </div>
   );
