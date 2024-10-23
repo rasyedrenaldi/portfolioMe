@@ -4,7 +4,7 @@ const Projects = ({ projects }) => {
   return (
     <div className="portfolio__projects">
       {projects.map(project => (
-        <Project />
+        <Project key={project.id} project={project} />
       ))}
     </div>
   );
