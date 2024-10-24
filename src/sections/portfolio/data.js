@@ -13,7 +13,7 @@ const data = [
         id: 1,
         category: 'uiux',
         image: Image1,
-        title: "Project Title One (UIUX)",
+        title: "Project Title One (UI/UX)",
         desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
         demo: 'http://egatortutorials.com',
         github: 'https://github.com/rasyedrenaldi'
@@ -40,7 +40,7 @@ const data = [
         id: 4,
         category: 'uiux',
         image: Image4,
-        title: "Project Title Four (UIUX)",
+        title: "Project Title Four (UI/UX)",
         desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
         demo: 'http://egatortutorials.com',
         github: 'https://github.com/egattor'
@@ -49,7 +49,7 @@ const data = [
         id: 5,
         category: 'uiux',
         image: Image5,
-        title: "Project Title Five (UIUX)",
+        title: "Project Title Five (UI/UX)",
         desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! ",
         demo: 'http://egatortutorials.com',
         github: 'https://github.com/egattor'
