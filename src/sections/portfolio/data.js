@@ -11,7 +11,7 @@ import Image9 from '../../assets/project9.jpg'
 const data = [
     {
         id: 1,
-        category: 'uiux',
+        category: 'ui/ux',
         image: Image1,
         title: "Project Title One (UI/UX)",
         desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
@@ -38,7 +38,7 @@ const data = [
     },
     {
         id: 4,
-        category: 'uiux',
+        category: 'ui/ux',
         image: Image4,
         title: "Project Title Four (UI/UX)",
         desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
@@ -47,7 +47,7 @@ const data = [
     },
     {
         id: 5,
-        category: 'uiux',
+        category: 'ui/ux',
         image: Image5,
         title: "Project Title Five (UI/UX)",
         desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! ",
