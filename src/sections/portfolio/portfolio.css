@@ -27,14 +27,14 @@
   animation: animateProject 800ms ease-in forwards;
 }
 
-@keyframes animateProject {
+/* @keyframes animateProject {
   from {
     opacity: 0;
   }
   to {
     opacity: 1;
   }
-}
+} */
 
 .portfolio__project-image {
   width: 100%;
