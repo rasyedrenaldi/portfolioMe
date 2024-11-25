@@ -20,8 +20,12 @@ const Testimonials = () => {
       <div className="container">
         <Swiper
           modules={[Pagination, Autoplay]}
-          spaceBetween={50}
-          slidesPerView={3}
+          spaceBetween={30}
+          slidesPerView={1}
+          breakpoints={{
+            601: { slidesPerView: 2 },
+            1025: { slidesPerView: 3 },
+          }}
           pagination={{ clickable: true }}
           scrollbar={{ draggable: true }}
           onSwiper={(swiper) => console.log(swiper)}
