@@ -7,6 +7,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import 'swiper/css/autoplay';
 
 import testimonials from './data';
 import Testimonial from './Testimonial';
@@ -20,6 +21,7 @@ const Testimonials = () => {
       <div className="container">
         <Swiper
           modules={[Pagination, Autoplay]}
+          autoplay={true}
           spaceBetween={30}
           slidesPerView={1}
           breakpoints={{
