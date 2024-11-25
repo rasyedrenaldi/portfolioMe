@@ -10,7 +10,7 @@ const FAQs = () => {
       <div className="container faqs__container">
         {
           faqs.map(faq => (
-            <FAQ key={faq.id}/>
+            <FAQ key={faq.id} faq={faq}/>
           ))
         }
 
