@@ -13,3 +13,8 @@ export const ModalProvider = ({ children }) => {
   };
   return <ModalContext.Provider value={{ showModal, showModalHandler, closeModalHandler }}>{children}</ModalContext.Provider>;
 };
+
+// Custom hook in general
+export const useModalContext = () => {
+  return useContext(ModalContext);
+};
