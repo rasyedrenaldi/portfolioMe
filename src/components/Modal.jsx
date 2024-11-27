@@ -5,13 +5,13 @@ import { useModalContext } from '../context/modal-context.js';
 import './modal.css';
 
 const Modal = ({ className, children }) => {
-  const { showModal } = useModalContext();
+  const { showModal, closeModalHandler } = useModalContext();
   return (
     <Fragment>
       {showModal &&
         ReactDOM.createPortal(
           <>
-            <section id="backdrop"></section>
+            <section id="backdrop" onClick={closeModalHandler}></section>
             <Card className={className}>{children}</Card>
           </>,
           document.querySelector('#overlays')

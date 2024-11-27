@@ -9,7 +9,7 @@ export const ModalProvider = ({ children }) => {
     setShowModal(true);
   };
   const closeModalHandler = () => {
-    setShowModal(true);
+    setShowModal(false);
   };
   return <ModalContext.Provider value={{ showModal, showModalHandler, closeModalHandler }}>{children}</ModalContext.Provider>;
 };
