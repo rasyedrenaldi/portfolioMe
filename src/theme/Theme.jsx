@@ -2,6 +2,7 @@ import Modal from './../components/Modal';
 import { primaryColors, backgroundColors } from './data';
 import PrimaryColor from './PrimaryColor';
 import BackgroundColor from './BackgroundColor';
+import './theme.css';
 
 const Theme = () => {
   return (
