@@ -9,7 +9,7 @@ const Modal = ({ className, children }) => {
       {ReactDOM.createPortal(
         <>
           <section id="backdrop"></section>
-          <Card className={className}>Hello World, Welcome to The Jungle of JS Technology</Card>
+          <Card className={className}>{children}</Card>
         </>,
         document.querySelector('#overlays')
       )}
